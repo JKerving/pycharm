@@ -1,0 +1,11 @@
+#itemgroup{
+	margin-left:50px;
+	line-height: 30px;
+	font-size: large;
+}
+#submit{
+	float:right;
+	font-size:large;
+	padding:15px;
+	color: lightgrey;
+}
