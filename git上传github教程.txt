@@ -1,0 +1,14 @@
+1.mkdir github_database
+2.mkdir pycharm(此步骤创建与repository名字一样的本地文件夹)
+3.git init
+4.git remote add origin https://github.com/JKerving/pycharm.git
+5.如果出现remote origin already exists，执行git remote rm origin
+6.然后再次执行git remote add origin https://github.com/JKerving/pycharm.git
+7.git push origin master
+8.出现error: src refspec master does not match any.
+	  error: failed to push some refs to 'https://github.com/JKerving/pycharm.git'
+9.执行git pull origin master
+10.git push origin master
+11.git add . //添加全部文件
+12.git commit -m "提交信息"
+13.git push origin master
